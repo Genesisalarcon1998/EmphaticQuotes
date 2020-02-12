@@ -16,10 +16,12 @@
     $query = "SELECT * FROM quotes";
     $result = mysqli_query($db, $query);
 
-    // while ( $row <= mysqli_fetch_array($result)) 
-    // {
-    //     $options = $options . "<option> $row[1] </option>";
-    // }
+?>
+
+<?php 
+
+    $myfeelings = "";
+    $myquotation = "";
 
     if(isset($_POST['insertquote']))
     {

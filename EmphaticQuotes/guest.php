@@ -26,6 +26,8 @@
 	<br><br>
 	<label class = "thequotation" > This is where your quote will appear... </label>
 
+	
+
 	<br><br>
 	<button onclick = "window.location.href = 'index.html';"> Logout </button>
 
