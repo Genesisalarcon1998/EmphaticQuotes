@@ -20,6 +20,11 @@
 	  	<option> <?php echo $row[1]; ?> </option>
 	    <?php endwhile; ?>
 	</select>
+	<br><br>
+	<label> Search a quote for your feeling! </label>
+	<button name = "search" > Search! </button>
+	<br><br>
+	<label class = "thequotation" > This is where your quote will appear... </label>
 
 	<br><br>
 	<button onclick = "window.location.href = 'index.html';"> Logout </button>

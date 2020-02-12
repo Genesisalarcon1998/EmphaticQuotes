@@ -21,7 +21,7 @@
     //     $options = $options . "<option> $row[1] </option>";
     // }
 
-    if(isset($_POST['addquote']))
+    if(isset($_POST['insertquote']))
     {
         $myfeelings = $_POST['myfeelings'];
         $myquotation = $_POST['myquotation'];

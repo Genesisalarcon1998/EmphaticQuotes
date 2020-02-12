@@ -31,7 +31,7 @@
 	</form>
 	
 
-	<button name = "addquote"> Insert Quote </button>
+	<button name = "insertquote"> Insert Quote </button>
 	<button onclick = "window.location.href = 'index.html';"> Logout </button>
 
 </body>
