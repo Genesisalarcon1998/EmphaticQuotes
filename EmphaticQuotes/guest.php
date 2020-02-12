@@ -1,3 +1,4 @@
+<?php include('config.php') ?>
 
 <!DOCTYPE html>
 <html>
@@ -10,13 +11,15 @@
 </head>
 <body>
 
-	<h1> What kind of user are you? </h1>
+	<label> How are you feeling right now? </label>
 
 	<br><br>
 
+	<select id = "feelings">
+	  	<?php while ($row = mysqli_fetch_array($result)):; ?>
+	  	<option> <?php echo $row[1]; ?> </option>
+	    <?php endwhile; ?>
+	</select>
 
-	<li> <a href = "guest.php" > Guest </a> </li>
-	<li> <a href = "admin.php" > Admin </a> </li>
-	
 </body>
 </html>
