@@ -21,6 +21,7 @@
 	    <?php endwhile; ?>
 	</select>
 
+	<br><br>
 	<button onclick = "window.location.href = 'index.html';"> Logout </button>
 
 </body>

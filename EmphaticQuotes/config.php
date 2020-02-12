@@ -21,16 +21,12 @@
     //     $options = $options . "<option> $row[1] </option>";
     // }
 
-    if(isset($_POST['register']))
+    if(isset($_POST['addquote']))
     {
-        $firstName = $_POST['fName'];
-        $lastName = $_POST['lName'];
-        $email = $_POST['email'];
-        $mobile = $_POST['mobile'];
-        $password = $_POST['password'];
-        $rPassword = $_POST['rPassword'];
+        $myfeelings = $_POST['myfeelings'];
+        $myquotation = $_POST['myquotation'];
 
-        $query = "INSERT INTO user (firstName, lastName, email, mobile, password, rPassword) VALUES ('$firstName', '$lastName', '$email', '$mobile', '$password', '$rPassword')";
+        $query = "INSERT INTO quotes (emotion, quote) VALUES ('$myfeelings', '$myquotation')";
         mysqli_query($db, $query);
 
         header('location: index.html');
