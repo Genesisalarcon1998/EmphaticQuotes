@@ -1,3 +1,5 @@
+<!-- fetch emotions -->
+
 <?php
 
     define('DB_SERVER', 'localhost');
@@ -17,6 +19,8 @@
     $result = mysqli_query($db, $query);
 
 ?>
+
+<!-- add quoation -->
 
 <?php 
 
